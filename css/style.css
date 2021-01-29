@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+}
+
+.titulo {
+    font-size: 50px;
+    float: left;
+    color: #fff
+
+    
+}
+
+.imgCabecera{
+    background-image: url(../img/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 350px;
+}
+
+.btn_menu{
+    display:block;
+    
+    width: 100%;
+    font-size: 1.8em;
+    border-radius: 7%;
+    margin-top:40px;
+    margin-left: 25px;
+    
+}
+
+/*a[href="index.html"],a[href="about.html"],a[href="contact.html"] {
+    color:blue;
+    text-decoration:
+
+} */
+
+a {
+    color:rgba(9, 5, 235, 0.836);
+    text-decoration:none;
+
+    
+}
+.active{
+    text-decoration: underline;
+}
+
+.float_rigth{
+    float:left;
+    margin-top: 70px;
+    margin-right: 15px;
+    
+}
+
+.subtitle {
+    color:#fff;
+    text-align:center;
+    border: black solid 3px;
+    background-color:black;
+    
+}
+.logo_rigth {
+    float:right;
+    margin-top:-120px;
+    margin-right:150px;
+}
+.info_fechas {
+    margin-left: 500px;
+    margin-top: 110px;
+    font-size: 25px;
+}
+
+h4 {
+    font-style: italic;
+}
+
+.caja {
+   margin-top: 110px;
+   margin-left: 480px;
+   font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #fff;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    padding-left: 0px;
+    
+}
+
+li{
+    border-bottom: solid 1px #ddd;
+    padding:15px;
+}
+
+table {
+    width: 100%;
+    margin-top:120px;
+    margin-left: -150px;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color:#f2f2f2;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #4caf50;
+    color:white;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.info_fechas_futbol {
+    margin-left: 350px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.lista_deport ul{
+    list-style-type:square;
+    margin-left: 500px;
+    margin-top: 10px;
+    font-size: 25px;
+    border: 0px;
+}
+
+h2 {
+    margin-left: 450px;
+    margin-top: 300px;
+    font-size: 25px;
+}
+
+.subtitle_rules {
+   
+    float: left;
+    margin-top:-200px;
+    margin-left: -100px;
+}
+
+.lista_reglamento li{
+    list-style-type:lower-alpha;
+    float: left;
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 25px;
+    border: 0px;
+    
+}
+
+
+.margin_left{
+    float:left;
+    margin-top:50px;
+    
+}
+
+.margin_right{
+    float:right;
+    margin-right: 250px;
+    margin-top: 50px;
+    
+}
+
+.lista_reglamento1 li{
+    
+    float: left;
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 25px;
+    border: 0px;
+}
+
+.lista_reglamento2 li{
+    list-style-type:square;
+    float: left;
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 25px;
+    border: 0px;
+
+}
+
+/************** formulario *************/
+
+input[type=text], select, textarea, checkbox {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+
+  display:inline-flex;  
+  float:right;
+  margin-right: 10px;
+  margin-top: -470px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-shadow: 1px 2px 8px rgba(0,0,0,0.6);
+}
+
+
+.margin_right_data{
+    float:right;
+    margin-top:50px;
+    margin-right:380px;
+}
